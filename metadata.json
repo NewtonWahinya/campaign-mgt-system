@@ -1,0 +1,8 @@
+{
+  "name": "County Campaign Manager",
+  "description": "Mobile-friendly county governor campaign management app for organizing campaign activities, volunteer tasks, community issues, and team members.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

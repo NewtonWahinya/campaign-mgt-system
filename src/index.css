@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #fdfafb;
+    --foreground: #2a0814;
+    --primary: #881337; /* Maroon */
+    --primary-foreground: #ffffff;
+    --secondary: #e0f2fe; /* Light Blue */
+    --secondary-foreground: #0369a1;
+    --accent: #f472b6; /* Pink */
+    --accent-foreground: #831843;
+    --card: #ffffff;
+    --card-foreground: #1e050e;
+    --border: #f3e8ee;
+    --muted: #f8f1f4;
+    --muted-foreground: #704d5b;
+  }
+}
+
+body {
+  background-color: #fdfafb;
+  color: #1e050e;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom subtle scrollbars in pink/maroon/light-blue tone */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fdf2f8;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f472b6;
+}
+
